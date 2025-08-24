@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: work sans;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 50px;
+    
+}
+.btn-style{
+    padding: 15px 25px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+header{
+    background-color: #FF900E10;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-left{
+    font-size: 45px;
+    font-weight: bold;
+
+}
+.navbar-right ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.navbar-right a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.homepage{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+
+}
+.homepage p{
+    text-align: center;
+    max-width: 870px;
+}
+.homepage-title p{
+    font-size: 64px;
+    font-weight: bold;
+}
+.homepage-img img{
+    width: 100%;
+}
+section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.quick-feature{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.quick-feature-left{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.quick-feature-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+.quick-feature-title{
+    font-size: 45px;
+    font-weight: bold;
+}
+.dark01{
+    color: black;
+}
+.dark03{
+    color: #727272;
+}
+.orange{
+    color: #FF900E;
+}
+@media screen and (max-width: 576px) {
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .navbar-left{
+        font-size: 40px;
+    }
+    .container{
+        padding: 15px;
+    } 
+    .homepage-title p{
+        font-size: 2rem;
+    }
+    .navbar-right ul{
+        gap: 25px;
+    }
+    .quick-feature{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .quick-feature-left{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+    .quick-feature-title{
+        font-size: 2.3rem;
+        
+    }
+}
+
